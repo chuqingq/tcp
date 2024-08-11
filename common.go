@@ -1,4 +1,4 @@
-package tcppacket
+package tcp
 
 type ClientState int
 
