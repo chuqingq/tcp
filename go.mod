@@ -1,3 +1,3 @@
-module github.com/chuqingq/tcppacket
+module github.com/chuqingq/tcp
 
-go 1.21.3
+go 1.20
