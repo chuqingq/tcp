@@ -1,4 +1,4 @@
-package tcppacket
+package tcp
 
 import (
 	"encoding/gob"
