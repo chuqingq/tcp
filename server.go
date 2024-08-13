@@ -43,7 +43,6 @@ func (s *Server) Start() error {
 }
 
 func (s *Server) loopAccept() {
-	s.Conns = make([]net.Conn, 0)
 	for {
 		conn, err := s.Listener.Accept()
 		if err != nil {
